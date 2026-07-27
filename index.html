@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="center">
+    <!-- Controler Area -->
+    <div class="header center">
+      <div class="center gap-8">
+        <!-- Number of leafs -->
+        <label for="leafCount"
+          >Leafs: <span id="leafCountValue">10</span>
+        </label>
+        <input type="range" id="leafCount" max="36" min="3" value="10" />
+      </div>
+      <!-- Speed of Rotation Animation -->
+      <div class="center gap-8">
+        <label for="animationSpeed"
+          >speed: <span id="animationSpeedValue">5</span>
+        </label>
+        <input
+          type="range"
+          id="animationSpeed"
+          max="20"
+          min="1"
+          value="5"
+          step="1"
+        />
+      </div>
+
+      <button id="radomColor">Random Color</button>
+      <button id="animationOnOffBtn">Pause / Play</button>
+    </div>
+    <!-- Flower Display Area -->
+    <div class="flower-area center">
+      <div class="flower center" id="flower">
+        <div class="flower-center-circle"></div>
+        <!-- Dynamicaly Loaded by JS -->
+        <!-- <div class="leaf"></div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
