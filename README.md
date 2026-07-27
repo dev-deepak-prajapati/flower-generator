@@ -1,14 +1,16 @@
 # 🌸 Interactive CSS & JS Flower Generator
 
-An interactive, responsive web application that dynamically renders custom-designed flowers using **Vanilla JavaScript** and **Pure CSS3**. Customize petal counts, spin animation speeds, and color spectrums in real-time!
+An interactive, responsive web application that dynamically renders custom-designed flowers using **Vanilla JavaScript** and **Pure CSS3**. Customize petal(leaf) counts, spin animation speeds, and color spectrums in real-time!
 
-🚀 **Live Demo:** [https://dev-deepak-prajapati.github.io/dom-part2/flower/](https://dev-deepak-prajapati.github.io/dom-part2/flower/)
+🚀 **Live Demo:** [https://dev-deepak-prajapati.github.io/flower-generator/](https://dev-deepak-prajapati.github.io/flower-generator/)
 
 ---
 
 ## 📸 Overview
 
 This project showcases the power of **DOM Manipulation** combined with **CSS Trigonometric Rotation Principles**. Instead of relying on static images or heavy SVG graphics, every petal is dynamically created as an HTML element and positioned precisely using mathematical degree rotations across a 360° center axis.
+<img width="1366" height="768" alt="Screenshot (318)" src="https://github.com/user-attachments/assets/e6a5a02a-bc7a-4693-8aaf-8d06a13caf56" />
+
 
 ---
 
@@ -43,7 +45,8 @@ This project showcases the power of **DOM Manipulation** combined with **CSS Tri
 ## 📂 Project Structure
 
 ```text
-dom-part2/
-└── flower/
-    ├── index.html        # Main HTML structure, styles, and JS script
-    └── README.md         # Project documentation
+flower-generator/
+└── index.html        # HTML structure
+├── style.css         # Cascading Style Sheet
+├── script.js         # JavaScript
+└── README.md         # Project documentation
