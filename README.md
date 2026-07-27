@@ -46,7 +46,7 @@ This project showcases the power of **DOM Manipulation** combined with **CSS Tri
 
 ```text
 flower-generator/
-└── index.html        # HTML structure
+├── index.html        # HTML structure
 ├── style.css         # Cascading Style Sheet
 ├── script.js         # JavaScript
 └── README.md         # Project documentation
