@@ -13,9 +13,8 @@ This project showcases the power of **DOM Manipulation** combined with **CSS Tri
 <img src="https://github.com/user-attachments/assets/e6a5a02a-bc7a-4693-8aaf-8d06a13caf56" alt="Flower Generator Screenshot" width="100%" />
 
 <br/><br/>
-
 <!-- 🎥 Preview Video (Auto-play, Responsive) -->
-<video src="https://github.com/user-attachments/assets/f8e9c89b-ce1d-4a6d-b8b8-97b891bc03ca" width="100%" autoplay muted loop playsinline controls></video>
+<video src="https://github.com/user-attachments/assets/a3e3d53f-6ca6-4b40-b247-c4587e4d10f2" width="100%" autoplay muted loop playsinline controls></video>
 
 ---
 
