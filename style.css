@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #12181f;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   overflow: hidden;
 }
@@ -70,39 +70,14 @@ button {
   color: white;
   font-weight: 600;
   font-size: 0.85rem;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 button:hover {
   transform: translateY(-2px); /* Corrected syntax */
   box-shadow: 0px 0px 12px 5px rgba(255, 71, 87, 0.4);
-}
-
-/* 📱 Mobile Layout Fix (<= 600px) */
-@media (max-width: 600px) {
-  .header { /* Class name fixed here */
-    flex-direction: column;
-    width: 90%;
-    max-width: 380px;
-    top: 15px;
-    padding: 15px;
-    gap: 15px;
-  }
-
-  .button-group {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .button-group button {
-    flex: 1; /* Both buttons will get equal size */
-    font-size: 0.8rem;
-    padding: 10px 8px;
-  }
-
-  input[type="range"] {
-    width: 100%;
-  }
 }
 
 /* Flower Stage Area */
@@ -148,5 +123,67 @@ button:hover {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* Floating Footer Credit */
+
+.footer {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 8px 18px;
+  bottom: 15px;
+  left: 50%;
+  translate: x -50%;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  color: #a4b0be;
+  z-index: 100;
+  white-space: nowrap;
+}
+
+.footer span {
+  color: #ff4757;
+  font-weight: 600;
+}
+
+/* 📱 Mobile Layout Fix (<= 600px) */
+@media (max-width: 600px) {
+  .header {
+
+    /* flex-direction: column; */
+    width: 90%;
+    max-width: 380px;
+    top: 15px;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .button-group {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .button-group button {
+    flex: 1; /* Both buttons will get equal size */
+    font-size: 0.8rem;
+    padding: 10px 8px;
+  }
+
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  .footer {
+    bottom: 10px;
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    max-width: 85%;
+    border-radius: 12px;
   }
 }
