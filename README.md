@@ -9,8 +9,13 @@ An interactive, responsive web application that dynamically renders custom-desig
 ## 📸 Overview
 
 This project showcases the power of **DOM Manipulation** combined with **CSS Trigonometric Rotation Principles**. Instead of relying on static images or heavy SVG graphics, every petal is dynamically created as an HTML element and positioned precisely using mathematical degree rotations across a 360° center axis.
-<img width="1366" height="768" alt="Screenshot (318)" src="https://github.com/user-attachments/assets/e6a5a02a-bc7a-4693-8aaf-8d06a13caf56" />
 
+<img src="https://github.com/user-attachments/assets/e6a5a02a-bc7a-4693-8aaf-8d06a13caf56" alt="Flower Generator Screenshot" width="100%" />
+
+<br/><br/>
+
+<!-- 🎥 Preview Video (Auto-play, Responsive) -->
+<video src="https://github.com/user-attachments/assets/f8e9c89b-ce1d-4a6d-b8b8-97b891bc03ca" width="100%" autoplay muted loop playsinline controls></video>
 
 ---
 
